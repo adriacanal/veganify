@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Veganify</title>
+    <link href="https://veganify.adriacanal.dev/blog" />
+    <link type="application/atom+xml" rel="self" href="https://veganify.adriacanal.dev/blog/feed.atom" />
+    <updated>2022-10-15T23:51:15+00:00</updated>
+    <id>https://veganify.adriacanal.dev/blog/feed.atom</id>
+    <author>
+        <name>Adrià Canal</name>
+    </author>
+                <entry>
+    <id>https://veganify.adriacanal.dev/blog/vegan-chilli</id>
+    <link type="text/html" rel="alternate" href="https://veganify.adriacanal.dev/blog/vegan-chilli" />
+    <title>Vegan chilli</title>
+    <published>2022-10-15T00:00:00+00:00</published>
+    <updated>2022-10-15T00:00:00+00:00</updated>
+    <author>
+        <name>Adrià Canal</name>
+    </author>
+    <summary type="html">Our healthy vegan chilli recipe packs in plenty of vegetables and doesn’t fall short on the flavour front. Serve it with rice or in jacket potatoes for a filling supper
+
+
+
+
+3 tbsp olive oil
+2 sweet potatoes, peeled and cut into medium chunks
+2 tsp......</summary>
+    <content type="html"><![CDATA[
+        <p>Our healthy vegan chilli recipe packs in plenty of vegetables and doesn’t fall short on the flavour front. Serve it with rice or in jacket potatoes for a filling supper</p>
+
+<h3>Ingredients</h3>
+
+<ul>
+<li>3 tbsp olive oil</li>
+<li>2 sweet potatoes, peeled and cut into medium chunks</li>
+<li>2 tsp smoked paprika</li>
+<li>2 tsp ground cumin</li>
+<li>1 onion, chopped</li>
+<li>2 carrots, chopped</li>
+<li>2 celery sticks, chopped</li>
+<li>2 garlic cloves, crushed</li>
+<li>1-2 tsp chilli powder (depending on how hot you like it)</li>
+<li>1 tsp dried oregano</li>
+<li>1 tbsp tomato purée</li>
+<li>1 red pepper, cut into chunks</li>
+<li>2 x 400g cans chopped tomatoes</li>
+<li>400g can black beans, drained</li>
+<li>400g can kidney beans, drained</li>
+<li>lime wedges, guacamole, rice and coriander to serve</li>
+</ul>
+
+<h2>Method</h2>
+
+<h3>STEP 1</h3>
+
+<p>Heat the oven to 200C/180C fan/gas 6. Put the sweet potato in a roasting tin and drizzle over 1½ tbsp oil, 1 tsp smoked paprika and 1 tsp ground cumin. Give everything a good mix so that all the chunks are coated in spices, season with salt and pepper, then roast for 25 mins until cooked.</p>
+
+<h3>STEP 2</h3>
+
+<p>Meanwhile, heat the remaining oil in a large saucepan over a medium heat. Add the onion, carrot and celery. Cook for 8-10 mins, stirring occasionally until soft, then crush in the garlic and cook for 1 min more. Add the remaining dried spices and tomato purée. Give everything a good mix and cook for 1 min more.</p>
+
+<h3>STEP 3</h3>
+
+<p>Add the red pepper, chopped tomatoes and 200ml water. Bring the chilli to a boil, then simmer for 20 mins. Tip in the beans and cook for another 10 mins before adding the sweet potato. Season to taste then serve with lime wedges, guacamole, rice and coriander. Will keep, in an airtight container in the freezer, for up to three months.</p>
+
+<h2>To make in a slow cooker</h2>
+
+<p>Heat the oil in a large frying pan over a medium heat. Add the onion, carrot and celery. Cook for 8-10 mins, stirring occasionally until soft, then crush in the garlic, tip in the sweet potato chunks and cook for 1 min more. Add all the dried spices, oregano and tomato purée, cook for 1 min, then tip into a slow cooker.</p>
+
+<p>Add the red pepper and chopped tomatoes. Give everything a good stir then cook on low for 5 hrs. Stir in the beans and cook for another 30 mins to 1 hr. Season to taste and serve with lime wedges, guacamole, rice and coriander.</p>
+    ]]></content>
+</entry>
+            <entry>
+    <id>https://veganify.adriacanal.dev/blog/getting-started</id>
+    <link type="text/html" rel="alternate" href="https://veganify.adriacanal.dev/blog/getting-started" />
+    <title>Getting Started</title>
+    <published>2022-10-15T00:00:00+00:00</published>
+    <updated>2022-10-15T00:00:00+00:00</updated>
+    <author>
+        <name>Adrià Canal</name>
+    </author>
+    <summary type="html">Getting started with Veganify
+
+
+
+You can write your content using a Markdown file. By default, the project expects your content to be located in the &lt;code&gt;source/_posts/&lt;/code&gt; folder.
+
+The top of each content page contains a YAML header that specifies......</summary>
+    <content type="html"><![CDATA[
+        <p>Getting started with Veganify</p>
+
+<h3>Adding Content</h3>
+
+<p>You can write your content using a Markdown file. By default, the project expects your content to be located in the <code>source/_posts/</code> folder.</p>
+
+<p>The top of each content page contains a YAML header that specifies how it should be rendered. The <code>title</code> attribute is used to dynamically generate HTML <code>title</code> and OpenGraph tags for each page. The <code>extends</code> attribute defines which parent Blade layout this content file will render with (e.g. <code>_layouts.post</code> will render with <code>source/_layouts/post.blade.php</code>), and the <code>section</code> attribute defines the Blade "section" that expects this content to be placed into it.</p>
+
+<pre><code class="language-yaml">---
+extends: _layouts.post
+section: content
+title: Vegan chilli
+date: 2022-10-15
+description: Our healthy vegan chilli recipe packs in plenty of vegetables and doesn’t fall short on the flavour front. Serve it with rice or in jacket potatoes for a filling supper
+cover_image: /assets/img/vegan-chilli.jpg
+featured: false
+---
+</code></pre>
+
+<h3>Adding Assets</h3>
+
+<p>Files such as images can be added directly to <code>/source/assets/</code>.</p>
+    ]]></content>
+</entry>
+    </feed>
