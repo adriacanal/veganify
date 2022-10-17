@@ -12,11 +12,11 @@ categories: [gluten-free]
 Try something new with your Sunday roast this weekend with these garlic and rosemary hasselback potatoes. Using same-sized potatoes will help them cook evenly.
 
 ### Ingredients
-1.5kg medium-sized floury potatoes (Maris piper or King Edward work well), peeled if you like
-4 tbsp vegetable oil
-4 garlic cloves, bashed
-a few sprigs of rosemary
-sea salt flakes
+- 1.5kg medium-sized floury potatoes (Maris piper or King Edward work well), peeled if you like
+- 4 tbsp vegetable oil
+- 4 garlic cloves, bashed
+- a few sprigs of rosemary
+- sea salt flakes
 
 ## Method
 
